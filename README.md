@@ -37,13 +37,4 @@ A color extracted from an image. Its properties are:
 
 - Color.rgb - The color represented as a ``namedtuple`` of RGB from 0 to 255, e.g. ``(r=255, g=151, b=210)``.
 - Color.hsl - The color represented as a ``namedtuple`` of HSL from 0 to 255, e.g. ``(h=230, s=255, l=203)``.
-- Color.proportion`` - The proportion of the image that is in the extracted color from 0 to 1, e.g. ``0.34``.
-
-### Sorting by HSL
-Something the original library lets you do is sort the colors you get by HSL. In actuality, though, the colors are only sorted by hue (as of colorgram.js 0.1.5), while saturation and lightness are ignored. To get the corresponding result in colorgram.py, simply do:
-
-```
-colors.sort(key=lambda c: c.hsl.h)
-# or...
-sorted(colors, key=lambda c: c.hsl.h)
-```
+- Color.proportion - The proportion of the image that is in the extracted color from 0 to 1, e.g. ``0.34``.
