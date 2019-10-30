@@ -38,8 +38,3 @@ A color extracted from an image. Its properties are:
 - Color.rgb - The color represented as a ``namedtuple`` of RGB from 0 to 255, e.g. ``(r=255, g=151, b=210)``.
 - Color.hsl - The color represented as a ``namedtuple`` of HSL from 0 to 255, e.g. ``(h=230, s=255, l=203)``.
 - Color.proportion - The proportion of the image that is in the extracted color from 0 to 1, e.g. ``0.34``.
-
-## TODO 
-
-- [ ] Background Extract Code
-- [ ] color range setting
