@@ -3,7 +3,7 @@ color-extraction by using colorgram.py
 ## prerequisites
 
 ```
-pip install colorgramp.py
+pip install colorgram.py
 pip install colormap
 pip install easydev
 ```
